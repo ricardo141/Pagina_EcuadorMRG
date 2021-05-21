@@ -8,13 +8,15 @@ import { InfoRegionesComponent } from './info-regiones/info-regiones.component';
 import { CarruselComponent } from './carrusel/carrusel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InfoRegionesComponent,
     CarruselComponent,
-    MenuComponent
+    MenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
